@@ -28,8 +28,8 @@ Constraints:
 Follow up: Could you write a solution that works in logarithmic time complexity?
 
 ## Python 3 Solution
-'''python
+```python
 class Solution:
     def trailingZeroes(self, n: int) -> int:
             return 0 if n == 0 else int(n / 5 + self.trailingZeroes(n / 5))
-'''
+```
